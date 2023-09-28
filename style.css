@@ -10,33 +10,26 @@ html,
     background-color: aliceblue;
     
 }
+
+
 .h1 {
     text-align: center;
     font-size: 180%;
     padding: .5%;
     background-color: rgb(133, 155, 175);
-    font-family: 'Rancho', cursive; 
+    font-family: 'Rancho', cursive;
     margin-left: 40%;
     margin-right: 40%;
 }
 
-
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-        align-content: center;
-
-    }
     
     .card {
+
         height: 38%;
         width: 20%;
         background-color: rgb(188, 207, 214);
         align-items: center;
         border-radius: 5%;
-        position: static;
         box-shadow: 10px 5px 5px rgb(70, 72, 73);
     }
    
@@ -44,15 +37,12 @@ html,
         width: 90%;
         height: 22vh; 
     justify-content: center;
-    margin-right: 5%;
     margin-left: 5%
     }
 
 .card-one-title {
-    font: 2.2rem;
-    margin-top: 20px 80px;
-    text-align: center;
-}
+    font: 2.2rem;}
+
 .card-one-desc {
     text-align: center;
 }
