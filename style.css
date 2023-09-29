@@ -77,15 +77,12 @@ html,
   height: 2rem;
   background: rgb(184, 203, 238);
   position: relative;
-  animation-name: example;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate; 
+  animation: animate 10s infinite alternate;
   
     
    
 }
-@keyframes example {
+@keyframes animate {
     0%   {background-color:rgb(192, 245, 255); left:0px; top:0px;}
   20%  {background-color:rgb(143, 204, 227); left:20%; top:0px;}
   40%  {background-color:rgb(75, 183, 233); left:40%; top:0px;}
